@@ -2,14 +2,16 @@
 My .dotfiles
 ============
 
-Clone to
+Clone.
 
-    ~/.dotfiles
+    git clone https://github.com/nnevala/.dotfiles.git ~/.dotfiles
 
-and run
+Run.
 
     cd ~/.dotfiles && sh update.sh
 
-to install.
+Profit.
 
-*Note that this will modify the configuration files (.bash_profile, .gitconfig, etc...) in your home directory and something might break. Run at your own risk.*
+*Note that this will modify the configuration files (.bash_profile, .gitconfig, etc...) in your home directory and something might break.*
+
+Run at your own risk, please.
