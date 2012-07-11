@@ -8,7 +8,7 @@ Clone to
 
 and run
 
-    sh update.sh
+    cd ~/.dotfiles && sh update.sh
 
 to install.
 
