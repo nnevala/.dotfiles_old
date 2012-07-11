@@ -12,4 +12,4 @@ and run
 
 to install.
 
-*Note that this will modify the .dotfiles in your home directory and something might break. Run at your own risk.*
+*Note that this will modify the configuration files (.bash_profile, .gitconfig, etc...) in your home directory and something might break. Run at your own risk.*
