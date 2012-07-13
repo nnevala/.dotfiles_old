@@ -1,6 +1,7 @@
 #!/bin/sh
 
-cd ~/.dotfiles && git pull && cd -
+echo "Updating git repository"
+cd ~/.dotfiles && git pull --quiet && cd - > /dev/null
 
 # bash
 grep ".dotfiles/conf/.bash_profile" ~/.bash_profile > /dev/null
