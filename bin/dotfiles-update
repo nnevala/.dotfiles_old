@@ -9,7 +9,7 @@ grep ".dotfiles/conf/.bash_profile" ~/.bash_profile > /dev/null
 if [ $? -gt 0 ]
 then
 	echo "Linking bash..."
-	echo "\nsource .dotfiles/conf/.bash_profile # @dotfiles" >> ~/.bash_profile
+	echo "\nsource ~/.dotfiles/conf/.bash_profile # @dotfiles" >> ~/.bash_profile
 fi
 
 # git

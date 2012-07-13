@@ -1,0 +1,8 @@
+#!/bin/sh
+
+args=("$@")
+
+cmd=$(printf "%s-" "${args[@]}")
+cmd="dotfiles-${cmd%-}"
+
+$cmd
