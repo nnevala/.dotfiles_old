@@ -1,17 +1,24 @@
 
-My .dotfiles
-============
+Setup
+=====
 
 Clone.
 
-    git clone https://github.com/nnevala/.dotfiles.git ~/.dotfiles
+    $ git clone https://github.com/nnevala/.dotfiles.git ~/.dotfiles
 
 Run.
 
-    cd ~/.dotfiles && sh update.sh
+    $ sh ~/.dotfiles/bin/dotfiles-update && . ~/.bash_profile
 
-Profit.
+After this the setup can be updated by simply running:
+
+    $ dotfiles-update
 
 *Note that this will modify the configuration files (.bash_profile, .gitconfig, etc...) in your home directory and something might break.*
 
-Run at your own risk, please.
+Run at your own risk!
+
+Utility Commands
+================
+
+    $ dotfiles run smi  # Runs Safari Mobile Inspector
