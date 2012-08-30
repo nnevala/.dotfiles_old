@@ -1,3 +1,7 @@
+[user]
+	name = "Niko Nevala"
+	email = "niko@nevala.fi"
+
 [alias]
 	st = status
 	co = checkout
