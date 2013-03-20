@@ -17,3 +17,5 @@
 [push]
 	default = upstream
 
+[core]
+	excludesfile = ~/.dotfiles/conf/.gitignore_global
